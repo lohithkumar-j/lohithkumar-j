@@ -47,9 +47,11 @@
 ---
 
 ## 🚀 Featured Projects:
-- 🔐 **Cyber Security Tools** – *WIP*
-- 🤖 **AI-Powered Chatbot (MindCare AI)** – *Research Paper Project*
+- 🔐 **Friday - Gemini Powered Personal Assistant** – *API*
+- ☁️ **AirGuard-AirQuality Forecasting System** - *Research Paper Project*
+- 🤖 **AI-Powered therapeutic Chatbot (MindCare AI)** – *Capstone Project*
 - ☁️ **Cloud Automation with ServiceNow** – *Automation workflows*
+- 
 
 ➡️ Check out my pinned repositories for more!
 
