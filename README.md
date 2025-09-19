@@ -1,46 +1,68 @@
-# generate_readme.py
+# 💫 About Me:
+👋 Hi, I'm **Lohith Janapala**  
+💡 AI and Automation Enthusiast  
+🎓 B.Tech Student passionate about **Cyber Security, AI, and Cloud Technologies**  
 
-data = {
-    "name": "Shrinath Munagapati",
-    "github_username": "MShrinath",
-    "about_me": "Interested in Cyber Security",
-    "socials": {
-        "LinkedIn": "https://linkedin.com/in/mshrinath",
-        "Instagram": "https://instagram.com/mr.shido_",
-        "GitLab": "https://gitlab.com/MShrinath"
-    },
-    "tech_stack": [
-        {"name": "Arduino", "url": "https://www.arduino.cc/"},
-        {"name": "Bash", "url": "https://www.gnu.org/software/bash/"},
-        {"name": "C", "url": "https://www.cprogramming.com/"},
-        {"name": "CSS", "url": "https://www.w3schools.com/css/"},
-        {"name": "Django", "url": "https://www.djangoproject.com/"},
-        {"name": "Express.js", "url": "https://expressjs.com/"},
-        {"name": "Firebase", "url": "https://firebase.google.com/"},
-        {"name": "Git", "url": "https://git-scm.com/"},
-        {"name": "HTML", "url": "https://www.w3.org/html/"},
-        {"name": "Java", "url": "https://www.java.com/"},
-        {"name": "JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"},
-        {"name": "Linux", "url": "https://www.linux.org/"},
-        {"name": "MongoDB", "url": "https://www.mongodb.com/"},
-        {"name": "Node.js", "url": "https://nodejs.org/"},
-        {"name": "Pandas", "url": "https://pandas.pydata.org/"},
-        {"name": "PostgreSQL", "url": "https://www.postgresql.org/"},
-        {"name": "Postman", "url": "https://postman.com/"},
-        {"name": "Python", "url": "https://www.python.org/"},
-        {"name": "React", "url": "https://reactjs.org/"}
-    ]
-}
+---
 
-def generate_socials_md(socials):
-    lines = []
-    for name, url in socials.items():
-        badge_url = f"https://img.shields.io/badge/{name}-blue?logo={name.lower()}&style=for-the-badge"
-        lines.append(f"[![{name}]({badge_url})]({url})  ")
-    return "\n".join(lines)
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/janapalalohithkumar/) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?logo=vercel&logoColor=white)](https://jlks-portfolio.netlify.app/) 
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/lohithkumar-j) 
+[![GitLab](https://img.shields.io/badge/GitLab-%23FC6D26.svg?logo=gitlab&logoColor=white)](https://gitlab.com/lohithkumar-j) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=instagram&logoColor=white)](https://www.instagram.com/mr_unstoppable_7/)
 
-def generate_tech_stack_md(tech_stack):
-    lines = []
-    for tech in tech_stack:
-        tech_name = tech["name"].replace(" ", "%20")
-        badge_url = f"https
+---
+
+## 💻 Tech Stack & Skills:
+
+### 🛠️ Technical Arsenal
+- 🐍 **Python** – 90%
+- 🤖 **Machine Learning** – 85%
+- 🧠 **Deep Learning** – 80%
+- 💬 **NLP** – 88%
+- ☁️ **AWS Web Services** – 85%
+- 🔮 **Google Cloud Platform** – 80%
+- ⚙️ **ServiceNow** – 88%
+- ⚛️ **React** – 85%
+- 🔥 **TensorFlow** – 80%
+- 🐳 **JavaScript** – 85%
+- 🌐 **HTML/CSS** – 90%
+- 📊 **SQL** – 80%
+- 🛠️ **Git/GitHub** – 90%
+- 🐳 **Docker** – 75%
+- ☸️ **Kubernetes** – 70%
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=arduino,bash,c,css,django,express,firebase,git,html,java,js,linux,mongodb,nodejs,pandas,postgres,postman,python,react,docker,kubernetes,aws,gcp&perline=10" />
+</p>
+
+---
+
+## 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=lohithkumar-j&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=lohithkumar-j&theme=radical&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=lohithkumar-j&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
+
+## 🚀 Featured Projects:
+- 🔐 **Cyber Security Tools** – *WIP*
+- 🤖 **AI-Powered Chatbot (MindCare AI)** – *Research Paper Project*
+- ☁️ **Cloud Automation with ServiceNow** – *Automation workflows*
+
+➡️ Check out my pinned repositories for more!
+
+---
+
+## 🏆 Achievements & Badges:
+![trophy](https://github-profile-trophy.vercel.app/?username=lohithkumar-j&theme=radical&margin-w=15&margin-h=15&no-frame=true&column=7)
+
+---
+
+## 🎯 Fun Fact:
+"Automation is not about replacing humans, it’s about empowering them." ⚡
+
+---
+
+✨ *Generated with ❤️ by Lohith Janapala* ✨
