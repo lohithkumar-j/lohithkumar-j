@@ -1,23 +1,46 @@
-# Your Name (or GitHub handle)
+# generate_readme.py
 
-![Emoji or Greeting] Sup
+data = {
+    "name": "Shrinath Munagapati",
+    "github_username": "MShrinath",
+    "about_me": "Interested in Cyber Security",
+    "socials": {
+        "LinkedIn": "https://linkedin.com/in/mshrinath",
+        "Instagram": "https://instagram.com/mr.shido_",
+        "GitLab": "https://gitlab.com/MShrinath"
+    },
+    "tech_stack": [
+        {"name": "Arduino", "url": "https://www.arduino.cc/"},
+        {"name": "Bash", "url": "https://www.gnu.org/software/bash/"},
+        {"name": "C", "url": "https://www.cprogramming.com/"},
+        {"name": "CSS", "url": "https://www.w3schools.com/css/"},
+        {"name": "Django", "url": "https://www.djangoproject.com/"},
+        {"name": "Express.js", "url": "https://expressjs.com/"},
+        {"name": "Firebase", "url": "https://firebase.google.com/"},
+        {"name": "Git", "url": "https://git-scm.com/"},
+        {"name": "HTML", "url": "https://www.w3.org/html/"},
+        {"name": "Java", "url": "https://www.java.com/"},
+        {"name": "JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"},
+        {"name": "Linux", "url": "https://www.linux.org/"},
+        {"name": "MongoDB", "url": "https://www.mongodb.com/"},
+        {"name": "Node.js", "url": "https://nodejs.org/"},
+        {"name": "Pandas", "url": "https://pandas.pydata.org/"},
+        {"name": "PostgreSQL", "url": "https://www.postgresql.org/"},
+        {"name": "Postman", "url": "https://postman.com/"},
+        {"name": "Python", "url": "https://www.python.org/"},
+        {"name": "React", "url": "https://reactjs.org/"}
+    ]
+}
 
-## 💫 About Me:
-🍞 Interested in Cyber Security (or your interests)
+def generate_socials_md(socials):
+    lines = []
+    for name, url in socials.items():
+        badge_url = f"https://img.shields.io/badge/{name}-blue?logo={name.lower()}&style=for-the-badge"
+        lines.append(f"[![{name}]({badge_url})]({url})  ")
+    return "\n".join(lines)
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge)](https://linkedin.com/in/your-linkedin)  
-[![Instagram](https://img.shields.io/badge/Instagram-pink?logo=instagram&style=for-the-badge)](https://instagram.com/your-instagram)  
-[![GitLab](https://img.shields.io/badge/GitLab-orange?logo=gitlab&style=for-the-badge)](https://gitlab.com/your-gitlab)
-
-## 💻 Tech Stack:
-[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge)](https://www.arduino.cc/)  
-[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge)](https://www.gnu.org/software/bash/)  
-[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge)](https://www.cprogramming.com/)  
-[![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge)](https://www.w3schools.com/css/)  
-... add more badges and links for your stack ...
-
-## 📊 GitHub Stats:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&theme=blue-green&show_icons=true&count_private=true&hide_border=true&layout=compact)
-
-
+def generate_tech_stack_md(tech_stack):
+    lines = []
+    for tech in tech_stack:
+        tech_name = tech["name"].replace(" ", "%20")
+        badge_url = f"https
